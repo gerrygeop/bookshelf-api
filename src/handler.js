@@ -1,5 +1,5 @@
 const {nanoid} = require('nanoid');
-const books = require('./xbooks');
+const books = require('./books');
 
 const addBookHandler = (request, h) => {
   const {
