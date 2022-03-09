@@ -70,6 +70,7 @@ const addBookHandler = (request, h) => {
         .response({
           status: 'fail',
           message:
+            // eslint-disable-next-line max-len
             'Gagal menambahkan buku. readPage tidak boleh lebih besar dari pageCount',
         }).code(400);
 
@@ -262,6 +263,7 @@ const editBookByIdHandler = (request, h) => {
         .response({
           status: 'fail',
           message:
+            // eslint-disable-next-line max-len
             'Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount',
         }).code(400);
 
